@@ -1,0 +1,86 @@
+.section_progects {
+    .section_progects_inner {
+        max-width: 1366px;
+        margin: 0 auto;
+        display: flex;
+        .img_wrapper {
+            position: relative;
+            background-color: #000000;
+            .layout {
+                position: absolute;
+                // background-color: red;
+                visibility: hidden;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-family: 'Source Sans Pro';
+                font-weight: 300;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: opacity 0.3s;
+            }
+            &:hover {
+                // color: red;
+                img {
+                    opacity: 0.15;
+                }
+                .layout {
+                    visibility: visible;
+                }
+            }
+        }
+    }
+    .section_progects_button {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 170px;
+        height: 113px;
+        background-image: url(../images/button_bg.jpg);
+        &::before {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #19bd9a;
+            opacity: 0.85;
+        }
+        p {
+            position: relative;
+            margin: 0;
+            font-size: 20px;
+            font-weight: 400;
+            color: #ffffff;
+            letter-spacing: 1px;
+
+        }
+            .colorWhite {
+                font-family: 'Open Sans';
+                font-size: 20px;
+                font-weight: 700;
+                color: #ffffff;
+
+            }
+        .button {
+            position: relative;
+            border: 1px solid #ffffff;
+            background-color: transparent;
+            &:hover {
+                background-color: #000000;
+            }
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.section_ipad {
+    display: flex;
+    padding-bottom: 57px;
+    .section_ipad_discription {
+        padding-top: 109px;
+        padding-left: 269px;
+        width: 56%;
+        // padding-right: 200px;
+        h2 {
+            font-family: 'Source Sans Pro';
+            color: #333b46;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 39px;
+        }
+        p {
+            color: #81868e;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            margin-bottom: 28px;
+            letter-spacing: 1.2px;
+        }
+    }
+    .section_ipad_photo {
+        width: 50%;
+        padding-right: 80px;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+}

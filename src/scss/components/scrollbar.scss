@@ -1,0 +1,21 @@
+.my-scrollbar {
+    // background-color: red;
+    .scrollbar-track {
+        position: absolute;
+        opacity: 1;
+        z-index: 2;
+        // background-color: red;
+    }
+    .scrollbar-track-y {
+        top: 0;
+        right: 0;
+        width: 10px;
+        height: 100%;
+    }
+}
+
+.skills {
+
+    height: 100px;
+    overflow: auto;
+}

@@ -1,0 +1,25 @@
+.section_title {
+    position: relative;
+    padding-top: 75px;
+    margin: 0 auto;
+    padding-bottom: 56px;
+    width: 37%;
+    text-align: center;
+    h2 {
+        font-family: 'Source Sans Pro';
+        color: #333b46;
+        font-size: 20px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 30px;
+    }
+    p {
+        color: #81868e;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 0;
+        word-spacing: 3px;
+    }
+}

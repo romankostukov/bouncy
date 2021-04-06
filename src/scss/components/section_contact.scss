@@ -1,0 +1,55 @@
+.section_contact {
+    background-color: #f3f3f3;
+    padding-bottom: 100px;
+    .section_contact_inner {
+        display: flex;
+        justify-content: center;
+        .section_contact_inner_item {
+            width: 287px;
+            border-right: 1px solid #e7e7e7;
+            border-bottom: 1px solid #e7e7e7;
+            margin: 0 20px;
+            .bg_img {
+                height: 145px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                transition: opacity 0.3s;
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                }
+            }
+            .bg_mail {
+                background-image: url(../images/arm.jpg);
+            }
+            .bg_office {
+                background-image: url(../images/clock.jpg);
+            }
+            .bg_phone {
+                background-image: url(../images/laptop.jpg);
+            }
+        }
+        .discription {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 31px;
+            padding-bottom: 30px;
+            background-color: #ffffff;
+            b {
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #464646;
+                margin-bottom: 25px;
+                
+            }
+            span {
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
